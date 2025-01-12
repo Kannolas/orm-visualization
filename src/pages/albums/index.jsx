@@ -421,8 +421,7 @@ function AlbumPage() {
     return () => {
       document.removeEventListener("keydown", handleKeyPress);
     };
-  }, []); // Зависимость пустая означает, что это сработает только при монтировании компонента
-
+  }, []);
   const [settingsOpen, setSettingsOpen] = useState(false);
   return (
     <div className={styles.contaner}>
