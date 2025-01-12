@@ -1,0 +1,44 @@
+.contanerActiveGreen {
+  width: 26px;
+  height: 14px;
+  border-radius: 40px;
+  background-color: #00d359;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2px;
+  transition: justify-content 0.8s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.contanerActivePurple {
+  width: 26px;
+  height: 14px;
+  border-radius: 40px;
+  background-color: #7700ff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2px;
+  transition: justify-content 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+.contaner {
+  width: 26px;
+  height: 14px;
+  border-radius: 40px;
+  background-color: #e8eced;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px;
+  transition: justify-content 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.switch {
+  height: 13px;
+  width: 13px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.contaner {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #bfbaba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 1px;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.contaner svg {
+  margin-left: 1px;
+  height: 10px;
+  width: 10px;
+}

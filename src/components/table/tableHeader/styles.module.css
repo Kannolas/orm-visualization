@@ -1,0 +1,31 @@
+.contaner {
+  width: 100%;
+  height: 32px;
+  background-color: #e8eced;
+  display: flex;
+  align-items: center;
+}
+
+.tableTitle {
+  display: flex;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 0px 10px 0px 10px;
+  white-space: nowrap; /* Делает текст на одной строке */
+  overflow: hidden; /* Скрывает текст, который не помещается */
+  text-overflow: ellipsis; /* Отображает троеточие в конце текста */
+}
+
+.tableTitle span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7b939b;
+  white-space: nowrap; /* Делает текст на одной строке */
+  overflow: hidden; /* Скрывает текст, который не помещается */
+  text-overflow: ellipsis; /* Отображает троеточие в конце текста */
+  user-select: none;
+}

@@ -1,0 +1,297 @@
+.contaner {
+  /* width: 100%; */
+  /* width: calc(100% - 268px); */
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 10px 30px 10px 30px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #e8eced;
+    border-radius: 16px;
+  }
+
+  &::-webkit-scrollbar-button:vertical:end:increment,
+  &::-webkit-scrollbar-button:vertical:start:decrement {
+    display: none;
+  }
+}
+
+.filters {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 0px;
+  min-height: 4%;
+}
+
+.search {
+  width: 512px;
+  height: 26px;
+  padding: 0px;
+  background-color: #f8f8fa;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tableContaner {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e8eced;
+  max-height: 80%;
+}
+
+.tableHeader {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+
+.columns {
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* flex-grow: 1; */
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #e8eced;
+    border-radius: 16px;
+  }
+
+  &::-webkit-scrollbar-button:vertical:end:increment,
+  &::-webkit-scrollbar-button:vertical:start:decrement {
+    display: none;
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row:hover {
+  background-color: rgba(169, 169, 169, 0.1);
+}
+
+.column {
+  height: auto;
+  overflow: hidden;
+}
+.editcolumn {
+  height: auto;
+  width: 7.1%;
+  overflow: hidden;
+}
+.tabset {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.tablesettings {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.editBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modalContaner {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 30px 20px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+
+.modalStudentContaner {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 30px 20px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.modalContaner img {
+  position: relative;
+  top: 30px;
+}
+.modalContaner h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 23px; */
+  color: #101828;
+}
+
+.modalContaner span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 16px; */
+  color: #4a5368;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.modalTitle {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  align-items: center;
+}
+
+.deleteicon {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.editicon {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.deleteicon:hover {
+  filter: invert(38%) sepia(57%) saturate(2778%) hue-rotate(349deg)
+    brightness(102%) contrast(111%);
+}
+
+.editicon:hover {
+  filter: brightness(0) saturate(100%) invert(9%) sepia(97%) saturate(7496%)
+    hue-rotate(272deg) brightness(98%) contrast(119%);
+  /* Изменим цвет на оранжевый при наведении */
+}
+
+.modalLicense {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 30px 30px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.licenseHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 33px;
+  align-items: center;
+}
+.licenseHeader h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #101828;
+}
+
+.licenseInputPlace {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.licenseInputTitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #101828;
+}
+
+.licenseButton {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.loader {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .editcolumn {
+    height: auto;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .tablesettings {
+    left: 0;
+    right: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .tablesettings {
+    left: 0;
+    right: auto;
+  }
+  .editcolumn {
+    height: auto;
+    width: 50%;
+  }
+  .editBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}

@@ -1,0 +1,12 @@
+.contaner {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #bfbaba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* cursor: pointer; */
+  border-radius: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
