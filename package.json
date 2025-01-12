@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Kannolas/orm-visualization.git",
+  "homepage": "https://kannolas.github.io/orm-visualization/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
