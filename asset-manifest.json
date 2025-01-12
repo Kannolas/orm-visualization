@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Kannolas/orm-visualization.git/static/css/main.63c30645.css",
+    "main.js": "/Kannolas/orm-visualization.git/static/js/main.d3113756.js",
+    "static/js/453.62189941.chunk.js": "/Kannolas/orm-visualization.git/static/js/453.62189941.chunk.js",
+    "static/media/eye-slash.svg": "/Kannolas/orm-visualization.git/static/media/eye-slash.42a5fd672adf2b0e9c9d26f3e5fc6b02.svg",
+    "static/media/filter.svg": "/Kannolas/orm-visualization.git/static/media/filter.02fa802c7470b82974fe0f68698a6816.svg",
+    "static/media/Warn.svg": "/Kannolas/orm-visualization.git/static/media/Warn.828fc52273cec2503fd17d09fc22099a.svg",
+    "static/media/Delete.svg": "/Kannolas/orm-visualization.git/static/media/Delete.48e4f775c1fa3a1d59ecade0169d593b.svg",
+    "static/media/succes-request.svg": "/Kannolas/orm-visualization.git/static/media/succes-request.955117fc36c307e60a3ae50a193d6200.svg",
+    "static/media/bad-request.svg": "/Kannolas/orm-visualization.git/static/media/bad-request.8ed5b260f48fb87f426ae3b6b18501b5.svg",
+    "static/media/close-circle.svg": "/Kannolas/orm-visualization.git/static/media/close-circle.f90b3dae1e7cc37cbb753e8a614f1860.svg",
+    "static/media/eye.svg": "/Kannolas/orm-visualization.git/static/media/eye.01a81ebf43c5296be9a0916118975049.svg",
+    "index.html": "/Kannolas/orm-visualization.git/index.html",
+    "static/media/table.svg": "/Kannolas/orm-visualization.git/static/media/table.da629f7b899569585aca6dc7751e776b.svg",
+    "static/media/Search.svg": "/Kannolas/orm-visualization.git/static/media/Search.819e772f22fab1044284702fddd1777e.svg",
+    "static/media/Check.svg": "/Kannolas/orm-visualization.git/static/media/Check.6606631a8c5f29b83a64b3b7fe3d943b.svg",
+    "static/media/Sort.svg": "/Kannolas/orm-visualization.git/static/media/Sort.e7c442d92aafad8a5832396baef2b404.svg",
+    "static/media/arrov.svg": "/Kannolas/orm-visualization.git/static/media/arrov.fb85824d08c3403f3be334e13f9b366c.svg",
+    "main.63c30645.css.map": "/Kannolas/orm-visualization.git/static/css/main.63c30645.css.map",
+    "main.d3113756.js.map": "/Kannolas/orm-visualization.git/static/js/main.d3113756.js.map",
+    "453.62189941.chunk.js.map": "/Kannolas/orm-visualization.git/static/js/453.62189941.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c30645.css",
+    "static/js/main.d3113756.js"
+  ]
+}
